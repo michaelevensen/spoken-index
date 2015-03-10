@@ -68,11 +68,12 @@ body {
 
 /* Wrapper */
 .wrapper {
-    width: 100%;
+
+    padding: 80px 40px;
+/*    width: 100%;
     height: 80%;
     position: absolute;
 
-    /**/
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -81,11 +82,10 @@ body {
     -webkit-align-items: center;
     -webkit-box-align: center;
 
-    align-items: center;
+    align-items: center;*/
 }
 
 .container {
-    padding: 40px;
     margin: 0 auto;
     max-width: 648px;
 }
