@@ -179,8 +179,6 @@ input:focus {
 
 #mc_embed_signup .button:hover {
     background-color: black;
-    /*color: #000;*/
-    /*border: 1px solid rgba(0, 0, 0, 0.5);*/
 }
 
 
@@ -192,6 +190,14 @@ input:focus {
 
 @media only screen and (min-width: 35em) {
 
+}
+
+/* Mobile */
+@media (min-width : 320px) and (max-width : 568px) {
+
+    p {
+        font-size: 30px;
+    }
 }
 
 @media print,
