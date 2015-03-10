@@ -68,21 +68,7 @@ body {
 
 /* Wrapper */
 .wrapper {
-
-    padding: 80px 40px;
-/*    width: 100%;
-    height: 80%;
-    position: absolute;
-
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-
-    align-items: center;*/
+    padding: 120px 40px;
 }
 
 .container {
@@ -91,11 +77,13 @@ body {
 }
 
 
-p {
+a.quote {
     font-weight: 300;
     color: #202020;
-    line-height: 1.3;
+    line-height: 1.4;
     margin-bottom: 36px;
+    text-decoration: none;
+    display: block;
 }
 
 span.bold {
@@ -103,7 +91,7 @@ span.bold {
     font-weight: 400;
 }
 
-a {
+/*a {
     font-size: 30px;
     font-weight: 700;
 }
@@ -112,7 +100,7 @@ a,
 a:visited {
     color: #202020;
     text-decoration: none;
-}
+}*/
 
 a:hover {
     color: #000;
@@ -120,15 +108,28 @@ a:hover {
 
 
 
+.mail-link {
+    display: inline-block;
+    border-left: 1px solid #D7D7D7;
+    padding-left: 30px;
+    margin-left: 20px;
+}
 
+/*.mail-link {
+    color: #BBBBBB;
+    font-size: 18px;
+    border-bottom: 1px solid #BBBBBB;
+}
+
+a.mail-link:hover {
+    border-color: black;
+}*/
 
 
 /* Mail signup */
 #mc_embed_signup {
-    margin-top: 100px;
+    margin: 100px 0;
 }
-
-
 
 .mc-field-group label {
     font-size: 20px;
@@ -152,20 +153,18 @@ input:focus {
     outline: 0;
 }
 
-#mc_embed_signup .button {
+.button {
 
     /* Legibility */
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    font-size: 20px;
 
-    background-color: #303030;
-    color: white;
-    font-size: 18px;
-    font-weight: 700;
-    border: none;
-    border-radius: 8px;
-    /*padding: 19px 40px 13px 42px;*/
-    padding: 18px 26px;
+    background-color: transparent;
+
+    border: 1px solid #bbb;
+    border-radius: 100px;
+    padding: 16px 36px 18px 36px;
     text-decoration: none;
     display: inline-block;
 
@@ -177,9 +176,11 @@ input:focus {
     user-select: none;
 }
 
-#mc_embed_signup .button:hover {
-    background-color: black;
+.button:hover {
+    border-color: #797979;
 }
+
+
 
 
 
@@ -195,13 +196,12 @@ input:focus {
 /* Mobile */
 @media (min-width : 320px) and (max-width : 568px) {
 
-    p {
+    a.quote {
         font-size: 30px;
     }
 
     .wrapper {
-        position: static;
-        display: block;
+        /*padding: 0 20px;*/
     }
 }
 
