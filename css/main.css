@@ -198,6 +198,11 @@ input:focus {
     p {
         font-size: 30px;
     }
+
+    .wrapper {
+        position: static;
+        display: block;
+    }
 }
 
 @media print,
