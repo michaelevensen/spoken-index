@@ -3,11 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Michael Nino Evensen -- Co-founder -- https://twitter.com/michaelnevensen
+    Amir Shaikh -- Co-founder -- https://twitter.com/amirshake
 
 # THANKS
 
-    <name>
+    Michael Nino Evensen -- Co-founder -- https://twitter.com/michaelnevensen
+    Amir Shaikh -- Co-founder -- https://twitter.com/amirshake
 
 # TECHNOLOGY COLOPHON
 
