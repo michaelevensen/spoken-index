@@ -39,7 +39,6 @@ html {
   background: #fff;
   color: #000;
   font-size: 100%;
-  font-family: "Source Sans Pro", Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -345,6 +344,7 @@ table {
 /* line 7, ../sass/partials/_page.scss */
 body, select, input, textarea {
   color: #222;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* line 7, ../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
