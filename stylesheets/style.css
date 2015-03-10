@@ -345,6 +345,18 @@ table {
 body, select, input, textarea {
   color: #222;
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+}
+
+/* line 21, ../sass/partials/_page.scss */
+#container {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
 }
 
 /* line 7, ../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
