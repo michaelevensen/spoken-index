@@ -1,7 +1,7 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
-    background-color: #000;
+    /*background-color: #000;*/
     font-size: 1em;
     line-height: 1.4;
 }
@@ -56,7 +56,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-    color: #fff;
+    /*color: #fff;*/
     font-family: 'Lato', sans-serif;
     font-size: 45px;
 
