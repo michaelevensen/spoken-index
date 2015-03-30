@@ -91,22 +91,10 @@ span.bold {
     font-weight: 400;
 }
 
-/*a {
-    font-size: 30px;
-    font-weight: 700;
-}
-
-a,
-a:visited {
-    color: #202020;
-    text-decoration: none;
-}*/
 
 a:hover {
     color: #000;
 }
-
-
 
 .mail-link {
     display: inline-block;
@@ -114,16 +102,6 @@ a:hover {
     padding-left: 30px;
     margin-left: 20px;
 }
-
-/*.mail-link {
-    color: #BBBBBB;
-    font-size: 18px;
-    border-bottom: 1px solid #BBBBBB;
-}
-
-a.mail-link:hover {
-    border-color: black;
-}*/
 
 
 /* Mail signup */
@@ -137,7 +115,7 @@ a.mail-link:hover {
 }
 
 .mc-field-group input {
-    margin: 14px 0; 
+    margin: 14px 0;
     display: block;
     font-size: 20px;
     font-weight: 400;
@@ -196,12 +174,22 @@ input:focus {
 /* Mobile */
 @media (min-width : 320px) and (max-width : 568px) {
 
+    #mc_embed_signup {
+      line-height: 18px;
+      margin-top: 60px;
+    }
+
+    .mc-field-group label {
+        font-size: 16px;
+    }
+
     a.quote {
-        font-size: 30px;
+        font-size: 32px;
+        line-height: 44px;
     }
 
     .wrapper {
-        /*padding: 0 20px;*/
+        padding-top: 60px;
     }
 }
 
