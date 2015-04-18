@@ -158,7 +158,22 @@ input:focus {
     border-color: #797979;
 }
 
+.contact {
+  margin-top: 100px;
+  border-top: 1px solid #ECECEC;
+}
 
+
+a.link {
+  color: #C1C1C1;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+a.link:hover {
+  /**/
+  color: black;
+}
 
 
 
